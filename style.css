@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #080875;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 510px;
+  min-height: 100vh;
+  background: #ffd400;
+  padding: 30px;
+  border-radius: 38px 38px 0 0;
+  text-align: center;
+}
+
+.profile {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 9px solid white;
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1.25;
+  margin-bottom: 28px;
+  color: #000;
+}
+
+.telegram {
+  display: block;
+  background: #4200ff;
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 24px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+}
+
+.feature {
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f0f2f5;
+  color: #000;
+  padding: 16px 22px;
+  margin: 15px 0;
+  border-radius: 30px;
+  text-align: left;
+}
+
+.feature span {
+  width: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.feature b {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.feature small {
+  font-size: 16px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    padding: 25px 18px;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .profile {
+    width: 170px;
+    height: 170px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .telegram {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .feature {
+    padding: 14px 16px;
+  }
+
+  .feature b {
+    font-size: 17px;
+  }
+
+  .feature small {
+    font-size: 14px;
+  }
+}
